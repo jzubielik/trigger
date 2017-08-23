@@ -4,7 +4,7 @@ pipeline {
   stages {
     stege('Build') {
       steps {
-        sh 'echo OK'
+        sh 'echo OK from Jenkins'
       }
     }
   }
