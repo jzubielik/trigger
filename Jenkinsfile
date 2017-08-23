@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stege('Build') {
+    stage('Build') {
       steps {
         sh 'echo OK from Jenkins'
       }
